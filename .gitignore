@@ -1,4 +1,14 @@
 dist
 build
-nbproject/private
 *.zip
+.gradle
+.idea/workspace.xml
+.idea/libraries
+src/main/resources/
+src/test/resources/
+/local.properties
+.DS_Store
+/captures
+.externalNativeBuild
+.idea/modules/
+.idea/.name

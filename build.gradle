@@ -1,0 +1,16 @@
+group ' com.angryelectron.fona'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'lib', include: ['*.jar'])
+    compile group: 'javax.mail', name: 'mail', version: '1.4'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
